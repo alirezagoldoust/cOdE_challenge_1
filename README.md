@@ -1,0 +1,19 @@
+# Four in a Row 🎲  
+
+A simple Python implementation of the classic **Four in a Row** game.  
+This project is designed for learning purposes and serves as a great introduction to game logic in Python.  
+
+## 🚀 How to Play  
+- Players take turns dropping their pieces into a column.  
+- The goal is to connect **four** pieces in a row (vertically, horizontally, or diagonally).  
+- The first player to do so wins!
+- sample video: https://www.youtube.com/shorts/NxMvln4fiJs
+<p align="center">
+  <img src="https://i.ebayimg.com/images/g/SN4AAOSwoMxl32uD/s-l1200.jpg" alt="Description" width="500">
+</p>
+
+
+## ▶️ Run the Game  
+Clone the repository and run:  
+```sh
+python main.py
