@@ -2,18 +2,16 @@
 # 🎉 Have fun coding
 bord = [[],[],[],[],[],[],[]]
 def bord_update (user_choice , turn , has_won):
-
-    winner =''
-    if has_won ==True:
-        winner=turn
+    if turn == 1:
+        bord[user_choice-1].append('X')
     else:
-         if len(bord[user_choice-1]) ==5:
-             pass
-         else:
-             bord[user_choice].append(turn)
+        bord[user_choice-1].append('O')
 
 def check_is_full(n : int):
-    pass    
+    if len(bord[n-1]) ==6:
+        return False
+    else:
+        return True    
 
 
 def game_status():
